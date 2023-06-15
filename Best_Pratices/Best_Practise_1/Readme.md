@@ -4,7 +4,10 @@
 1. Optimize your x86-based Amazon EC2 Workloads
 
 * Running your x86 EC2 workloads on AMD-based EC2 instances to achieve at least 10% cost savings.
+
 Usecase 1: https://aws.amazon.com/blogs/big-data/increase-amazon-elasticsearch-service-performance-by-upgrading-to-graviton2/
+
+
 Comments: ELK 7.9 existing datanodes and master is moved from x86 processor to graviton. This helps in increase in performance and reduce the cost by 10%.
 
 Benefits of moving x86 to graviton processor
